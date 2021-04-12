@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Achieve300Automation]">
+  <test thread-count="5" name="TC_Automation_PartnersPage(failed)">
+    <classes>
+      <class name="Tests.TestCode">
+        <methods>
+          <include name="openPartnersPage"/>
+        </methods>
+      </class> <!-- Tests.TestCode -->
+    </classes>
+  </test> <!-- TC_Automation_PartnersPage(failed) -->
+</suite> <!-- Failed suite [Achieve300Automation] -->

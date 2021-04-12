@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WalletHubDemoRelease]">
+  <test thread-count="5" name="TC_Automation_LoginPost(failed)">
+    <classes>
+      <class name="WalletHubTest.FbTest">
+        <methods>
+          <include name="FbLogin"/>
+        </methods>
+      </class> <!-- WalletHubTest.FbTest -->
+    </classes>
+  </test> <!-- TC_Automation_LoginPost(failed) -->
+</suite> <!-- Failed suite [WalletHubDemoRelease] -->

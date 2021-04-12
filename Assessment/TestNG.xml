@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Achieve300Automation">
+	    
+         <test name="TC_Automation_PartnersPage"  preserve-order="true" enabled="true">
+         <classes>
+	     <class name="Tests.TestCode">
+	     <methods>
+         <include name="openPartnersPage"/>
+          <include name="printPartners"/>
+          </methods>
+         </class>
+	     </classes>
+	     </test>
+	      <!-- Test --> 
+	         
+		  
+</suite>  
